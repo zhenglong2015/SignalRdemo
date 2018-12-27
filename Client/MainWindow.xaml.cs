@@ -80,7 +80,7 @@ namespace Client
             {
                 await m_Connection.Start();
             }
-            catch (HttpRequestException)
+            catch (HttpRequestException e)
             {
                 // 连接失败
                 return;

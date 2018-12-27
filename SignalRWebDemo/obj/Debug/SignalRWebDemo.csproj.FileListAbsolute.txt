@@ -69,3 +69,5 @@ D:\WorkSpace\SignalRDemo\SignalRWebDemo\bin\Microsoft.Owin.Security.xml
 D:\WorkSpace\SignalRDemo\SignalRWebDemo\bin\Newtonsoft.Json.xml
 D:\WorkSpace\SignalRDemo\SignalRWebDemo\bin\zh-Hans\Microsoft.AspNet.SignalR.Core.resources.dll
 D:\WorkSpace\SignalRDemo\SignalRWebDemo\bin\zh-Hans\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+D:\WorkSpace\SignalRdemo\SignalRWebDemo\obj\Debug\SignalRWebDemo.csprojAssemblyReference.cache
+D:\WorkSpace\SignalRdemo\SignalRWebDemo\bin\AjaxMin.dll

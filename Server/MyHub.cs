@@ -20,9 +20,9 @@ namespace Server
         private List<string> m_ConnectionId = new List<string>();
 
         /// <summary>
-        /// Called when the connection connects to this hub instance.
+        /// 当有客户端连接时
         /// </summary>
-        /// <returns>A System.Threading.Tasks.Task</returns>
+        /// <returns></returns>
         public override Task OnConnected()
         {
             string connectionId = this.Context.ConnectionId;
@@ -37,18 +37,11 @@ namespace Server
             return base.OnConnected();
         }
 
-        //
-        // Summary:
-        //     Called when a connection disconnects from this hub gracefully or due to a timeout.
-        //
-        // Parameters:
-        //   stopCalled:
-        //     true, if stop was called on the client closing the connection gracefully; false,
-        //     if the connection has been lost for longer than the Microsoft.AspNet.SignalR.Configuration.IConfigurationManager.DisconnectTimeout.
-        //     Timeouts can be caused by clients reconnecting to another SignalR server in scaleout.
-        //
-        // Returns:
-        //     A System.Threading.Tasks.Task
+        /// <summary>
+        /// 客户端断开连接时
+        /// </summary>
+        /// <param name="stopCalled"></param>
+        /// <returns></returns>
         public override Task OnDisconnected(bool stopCalled)
         {
             string connectionId = this.Context.ConnectionId;
@@ -62,6 +55,7 @@ namespace Server
 
             return base.OnDisconnected(stopCalled);
         }
+
         /// <summary>
         /// 自定义发送方法
         /// 供应客户端使用

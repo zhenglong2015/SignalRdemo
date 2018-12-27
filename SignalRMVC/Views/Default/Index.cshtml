@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<script src="~/Scripts/jquery-3.3.1.js"></script>
+<script src="~/Scripts/jquery.signalR-2.2.2.js"></script>
+<script src="~/Scripts/proxy.js"></script>
+<script type="text/javascript">
+
+    // 引用自动生成的集线器代理
+    var chat = $.connection.myHub;
+
+    // 定义服务器端调用的客户端sendMessage来显示新消息
+    chat.client.addMessage = function (name, message) {
+        // 向页面添加消息
+        console.log(message);
+    };
+
+    // 开始连接服务器
+    $.connection.hub.start().done(function () {
+        chat.server.send('ztb', $('#message').val());
+    });
+
+</script>
+

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRWebDemo", "SignalRWe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{7E81ED29-A29E-4D4C-A8BC-2CB69D3BD4B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRMVC", "SignalRMVC\SignalRMVC.csproj", "{3B9151FF-E27F-4EFC-BDD9-529AF6506955}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{5D64FCCE-DE48-4238-BD3C-F28A7DBC8D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D64FCCE-DE48-4238-BD3C-F28A7DBC8D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D64FCCE-DE48-4238-BD3C-F28A7DBC8D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9151FF-E27F-4EFC-BDD9-529AF6506955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9151FF-E27F-4EFC-BDD9-529AF6506955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9151FF-E27F-4EFC-BDD9-529AF6506955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9151FF-E27F-4EFC-BDD9-529AF6506955}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

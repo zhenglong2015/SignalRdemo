@@ -25,3 +25,4 @@ D:\WorkSpace\SignalRDemo\Server\obj\Debug\Server.pdb
 D:\WorkSpace\SignalRDemo\Server\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
 D:\WorkSpace\SignalRDemo\Server\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
 D:\WorkSpace\SignalRdemo\Server\obj\Debug\Server.csprojAssemblyReference.cache
+D:\WorkSpace\SignalRDemo\Server\bin\Debug\AjaxMin.dll
